@@ -1,0 +1,7 @@
+.ipynb_checkpoints
+.idea/
+venv/
+docs/build
+docs/.buildinfo
+docs/.doctrees
+docker/biowulf

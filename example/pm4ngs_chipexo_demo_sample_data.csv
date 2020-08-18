@@ -1,0 +1,7 @@
+﻿sample_name,file,condition,replicate
+SRR4011416,,Exp_O2_growth_no_rifampicin,1
+SRR4011417,,Exp_O2_growth_no_rifampicin,2
+SRR4011421,,Exp_O2_growth_rifampicin,1
+SRR4011425,,Exp_O2_growth_rifampicin,2
+SRR4011418,,Stat_02_growth_no_rifampicin,1
+SRR4011419,,Stat_02_growth_no_rifampicin,2
