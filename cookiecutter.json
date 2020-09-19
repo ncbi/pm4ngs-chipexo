@@ -10,9 +10,9 @@
   "organism": "human",
   "genome_name": "hg38",
   "genome_dir": "{{ cookiecutter.genome_name }}",
-  "aligner_index_dir": "{{ cookiecutter.genome_dir }}/ALIGNER",
+  "aligner_index_dir": "{{ cookiecutter.genome_dir }}/BWA",
   "genome_fasta": "{{ cookiecutter.genome_dir }}/genome.fa",
-  "genome_gtf": "{{ cookiecutter.genome_dir }}/genome.gtf",
+  "genome_gtf": "{{ cookiecutter.genome_dir }}/genes.gtf",
   "genome_chromsizes": "{{ cookiecutter.genome_dir }}/genome.sizes",
   "use_docker": "y",
   "max_number_threads": "16"
