@@ -1,12 +1,16 @@
 # PM4NGS ChIPexo data analysis pipeline
 
+## Note
+
+This is a PM4NGS pipeline repository. It is not intended to be used as a single package. 
+Please, read the PM4NGS documentation for this pipeline: 
+https://pm4ngs.readthedocs.io/en/latest/pipelines/chipexoPipeline.html 
+
 ## Basic requirements
 
 1. Python 3.7.x
-2. virtualenv 16.5.0
-3. ImageMagick 7.0.x
-
-Full list of requirements *requirements/conda-env-dependencies.yaml*
+2. PM4NGS 0.0.1
+3. Poppler (https://poppler.freedesktop.org/)
 
 # Public Domain notice
 
