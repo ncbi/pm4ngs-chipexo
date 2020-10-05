@@ -9,7 +9,7 @@ default_context:
   number_spots: "1000000"
   organism: "Escherichia coli"
   genome_name: "NC_000913.3"
-  genome_dir: "{{ cookiecutter.genome_name}}/genome_name"
+  genome_dir: "{{ cookiecutter.genome_name}}"
   aligner_index_dir: "{{ cookiecutter.genome_dir}}/BWA/"
   genome_fasta: "{{ cookiecutter.genome_dir}}/NC_000913.3.fa"
   genome_gtf: "{{ cookiecutter.genome_dir}}/NC_000913.3.gtf"

@@ -58,8 +58,8 @@ TMP = os.path.join(WORKDIR,'tmp')
 #
 ###############################################################
 
-GENOME = '{{ cookiecutter.genome_dir }}'
 GENOME_NAME = '{{ cookiecutter.genome_name }}'
+GENOME = '{{ cookiecutter.genome_dir }}'
 ALIGNER_INDEX = '{{ cookiecutter.aligner_index_dir }}'
 GENOME_FASTA = '{{ cookiecutter.genome_fasta }}'
 GENOME_GTF = '{{ cookiecutter.genome_gtf }}'
