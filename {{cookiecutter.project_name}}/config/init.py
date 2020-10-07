@@ -70,6 +70,7 @@ if GENOME_NAME == GENOME:
     ALIGNER_INDEX = os.path.join(DATA, ALIGNER_INDEX)
     GENOME_FASTA = os.path.join(DATA, GENOME_FASTA)
     GENOME_GTF = os.path.join(DATA, GENOME_GTF)
+    GENOME_CHROMSIZES = os.path.join(DATA, GENOME_CHROMSIZES)
 
 ###############################################################
 #
