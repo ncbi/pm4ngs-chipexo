@@ -83,7 +83,9 @@ def copy_rawdata_to_project():
         sample_table = sample_table[['sample_name', 'file', 'condition', 'replicate']]
         print('{} files loaded\nUsing table:'.format(len(sample_table)))
         print(sample_table)
-        files = sample_table[sample_table['file'] != '']['file'].unique()
+        files = []
+        for f in sample_table[sample_table['file'] != '']['file'].unique():
+            files.extend(f.split('|'))
         if len(files) > 0:
             print('Copying files in parallel using: {} CPUs'.format(cpu_count() - 1))
             p = Pool(processes=cpu_count() - 1)
