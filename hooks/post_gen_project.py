@@ -76,7 +76,7 @@ def rawdata_file_manager(file):
 
 
 def copy_rawdata_to_project():
-    if COPY_RAWDATA:
+    if COPY_RAWDATA == 'True':
         sample_table_file = os.path.join(DATASET_DIR, 'sample_table.csv')
         sample_table = pandas.read_csv(sample_table_file, skip_blank_lines=True)
         sample_table = sample_table.replace(np.nan, '', regex=True)
