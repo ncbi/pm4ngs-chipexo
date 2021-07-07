@@ -1,6 +1,5 @@
 import re
 import sys
-from cookiecutter.main import cookiecutter
 
 PROJECT_REGEX = r'^[\-_a-zA-Z0-9]+$'
 
@@ -11,4 +10,3 @@ if not re.match(PROJECT_REGEX, PROJECT_NAME):
 
     # exits with status 1 to indicate failure
     sys.exit(1)
-
